@@ -1,0 +1,22 @@
+(function(){
+"use strict";
+window.VDM_CONTENT_DATA.messages={
+  contacts:[{conversationId:"c1",name:"佐伯"}],
+  conversations:[{
+    id:"c1",name:"佐伯",readDelay:300,
+    messages:[
+      {id:"m1",sender:"c1",text:"資料室の入口、見つかった？",time:"20:14"},
+      {id:"m2",sender:"me",text:"東口側を見ます。",time:"20:15"},
+      {id:"m3",sender:"c1",text:"写真も送っておく。",time:"20:16",attachment:{type:"image",src:"data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%22640%22%20height%3D%22480%22%3E%3Crect%20width%3D%22640%22%20height%3D%22480%22%20fill%3D%22%23556778%22/%3E%3Cpath%20d%3D%22M0%20360L180%20180%20310%20300%20430%20150%20640%20360V480H0Z%22%20fill%3D%22%2398a9ad%22/%3E%3C/svg%3E",alt:"青灰色の山並みを表した検証用画像"}}
+    ],
+    intents:[{examples:["見つかった","入口はどこ","東口"],replies:["東口の案内板の横。"],delay:500,readDelay:250}]
+  }],
+  calls:[
+    {id:"call-out",conversationId:"c1",direction:"outgoing",status:"completed",duration:"00:12",transcript:"展示は15日からです。",captions:"展示は15日からです。",noAudioEquivalent:"展示開始日を伝えた通話。"},
+    {id:"call-in",conversationId:"c1",direction:"incoming",status:"incoming",duration:"00:00",transcript:"入口の場所を確認したい。",captions:"入口の場所を確認したい。",noAudioEquivalent:"入口の場所を確認する着信。"},
+    {id:"call-missed",conversationId:"c1",direction:"incoming",status:"missed",duration:"00:00",noAudioEquivalent:"不在着信。"},
+    {id:"call-voice",conversationId:"c1",direction:"incoming",status:"voicemail",duration:"00:03",transcript:"折り返しは不要です。",captions:"折り返しは不要です。",noAudioEquivalent:"折り返し不要という留守番電話。"},
+    {id:"call-declined",conversationId:"c1",direction:"incoming",status:"declined",duration:"00:00",noAudioEquivalent:"着信を拒否した記録。"}
+  ]
+};
+})();
