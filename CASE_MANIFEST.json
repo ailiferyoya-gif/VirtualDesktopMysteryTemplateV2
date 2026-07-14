@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
-    "projectName":  "V2TemplateWebPreviewCase",
-    "caseSlug":  "v2templatewebpreviewcase",
+    "projectName":  "V2TemplateWebPreview220",
+    "caseSlug":  "v2templatewebpreview220",
     "selectedApps":  [
                          "search",
                          "browser",
@@ -27,6 +27,6 @@
                      "pageVersioning":  true,
                      "templateV2Smoke":  true
                  },
-    "publicVersion":  "2.1.0",
-    "buildTimestamp":  "2026-07-13T00:00:00Z"
+    "publicVersion":  "2.2.0",
+    "buildTimestamp":  "2026-07-15T00:00:00Z"
 }

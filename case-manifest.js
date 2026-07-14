@@ -1,7 +1,7 @@
 window.CASE_MANIFEST = {
     "schemaVersion":  2,
-    "projectName":  "V2TemplateWebPreviewCase",
-    "caseSlug":  "v2templatewebpreviewcase",
+    "projectName":  "V2TemplateWebPreview220",
+    "caseSlug":  "v2templatewebpreview220",
     "mode":  "Hybrid",
     "selectedApps":  [
                          "search",
@@ -15,7 +15,7 @@ window.CASE_MANIFEST = {
                          "notes",
                          "settings"
                      ],
-    "storageKey":  "v2templatewebpreviewcase-case-v1",
+    "storageKey":  "v2templatewebpreview220-case-v1",
     "appCatalog":  {
                        "search":  {
                                       "id":  "search",
@@ -53,9 +53,14 @@ window.CASE_MANIFEST = {
                                    },
                        "social":  {
                                       "id":  "social",
-                                      "label":  "Social",
+                                      "label":  "Ripple",
                                       "icon":  "O",
                                       "entry":  "apps/social/index.html",
+                                      "window":  {
+                                                     "width":  1190,
+                                                     "height":  740,
+                                                     "minWidth":  780
+                                                 },
                                       "dependencies":  [
 
                                                        ],
@@ -73,6 +78,11 @@ window.CASE_MANIFEST = {
                                     "label":  "Link",
                                     "icon":  "L",
                                     "entry":  "apps/line/index.html",
+                                    "window":  {
+                                                   "width":  1040,
+                                                   "height":  710,
+                                                   "minWidth":  760
+                                               },
                                     "dependencies":  [
 
                                                      ],
@@ -209,7 +219,7 @@ window.CASE_MANIFEST = {
                      "pageVersioning":  true,
                      "templateV2Smoke":  true
                  },
-    "templateVersion":  "2.1.0",
-    "version":  "2.1.0",
+    "templateVersion":  "2.2.0",
+    "version":  "2.2.0",
     "distributionMode":  "WebHosted"
 };

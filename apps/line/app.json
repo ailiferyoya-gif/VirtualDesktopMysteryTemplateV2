@@ -3,6 +3,7 @@
   "label": "Link",
   "icon": "L",
   "entry": "apps/line/index.html",
+  "window": { "width": 1040, "height": 710, "minWidth": 760 },
   "dependencies": [],
   "capabilities": [
     "interactive",
@@ -13,4 +14,3 @@
     "single-html"
   ]
 }
-
